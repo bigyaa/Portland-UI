@@ -1,0 +1,13 @@
+.clearfix::after {
+	content: none;
+	clear: both;
+	display: table;
+}
+
+.to-upper {
+	text-transform: uppercase;
+}
+
+.to-block {
+	display: block;
+}
