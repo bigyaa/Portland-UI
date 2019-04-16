@@ -4,20 +4,35 @@ a {
 
 header {
 	border-bottom-width: 1px;
-	border-bottom-color: grey;
 }
 
 .btn-signin {
 	font: 11px montserratregular;
 	background-color: white;
-	border-style: solid;
-	border-width: 1px;
-	color: rgb(52, 62, 92);
+	border: 1px solid rgb(174, 178, 192);
+	color: rgb(123, 129, 146);
 }
 
 .btn-signin:hover {
 	cursor: pointer;
 	background-color: rgb(227, 232, 240);
+}
+
+.searchbar {
+	border-top: 1px solid rgb(220, 224, 238);
+	border-bottom: 1px solid rgb(220, 224, 238);
+}
+
+.input-search {
+	border: none;
+	border-left: 1px solid rgb(220, 224, 238);
+	border-right: 1px solid rgb(220, 224, 238);
+	background-color: rgb(220, 224, 238);
+}
+
+.input-search::placeholder {
+	color: black;
+	font: 11px montserratregular;
 }
 
 .cart-items {
@@ -26,7 +41,8 @@ header {
 }
 
 .scrollbar a {
-	color: grey;
+	color: black;
+	font: 11px montserratregular;
 }
 
 .iphone6 {
@@ -35,8 +51,17 @@ header {
 
 .text-iphone6 {
 	color: white;
+	font: 16px crimson_textroman;
 }
 
 .text-iphone6 h2 {
 	font: 42px montserrat_blackregular;
+}
+
+.btn-buynow {
+	background-color: rgb(39, 84, 235);
+	border: none;
+	color: white;
+	border-radius: 25px;
+	font: 11px montserratregular;
 }
