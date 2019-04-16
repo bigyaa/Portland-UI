@@ -28,3 +28,15 @@ header {
 .scrollbar a {
 	color: grey;
 }
+
+.iphone6 {
+	background-color: black;
+}
+
+.text-iphone6 {
+	color: white;
+}
+
+.text-iphone6 h2 {
+	font: 42px montserrat_blackregular;
+}

@@ -27,9 +27,9 @@ header {
 .btn-signin {
 	position: absolute;
 	border-radius: 12px;
-	top: 30%;
+	top: 3px;
 	right: 5%;
-	padding: 14px 20px;
+	padding: 18px 16px;
 }
 
 .searchbar {
@@ -78,10 +78,35 @@ nav {
 	padding: 5px;
 }
 
-.image-iphone6 {
+.iphone6 {
+	position: relative;
+	height: 346px;
 	width: 100%;
 }
 
+.image-iphone6 {
+	position: absolute;
+	width: 102.75px;
+	height: 300px;
+	top: 20px;
+	right: 10%;
+}
+
+.text-iphone6 h2 {
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	width: 50%;
+	text-align: justify;
+}
+
+.text-iphone6 p {
+	position: absolute;
+	top: 200px;
+	left: 30px;
+	width: 50%;
+	text-align: justify;
+}
 .section-images img {
 	width: 100%;
 }
