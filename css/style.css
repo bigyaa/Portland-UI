@@ -1,9 +1,14 @@
 a {
 	text-decoration: none;
+	color: black;
 }
 
 header {
 	border-bottom-width: 1px;
+}
+
+.hamburger-items {
+	display: none;
 }
 
 .btn-signin {
@@ -40,11 +45,6 @@ header {
 	font: 11px montserratregular;
 }
 
-.scrollbar a {
-	color: black;
-	font: 11px montserratregular;
-}
-
 .iphone6 {
 	background-color: black;
 }
@@ -65,3 +65,67 @@ header {
 	border-radius: 25px;
 	font: 11px montserratregular;
 }
+
+.filterbar {
+border-bottom: 1px solid rgb(220, 224, 238);
+}
+
+.filter-input {
+	border: none;
+	border-left: 1px solid rgb(220, 224, 238);
+	border-right: 1px solid rgb(220, 224, 238);
+	background-color: rgb(220, 224, 238);
+}
+
+.filter-sortby a {
+	color: black;
+}
+
+.filter-sortby p {
+	font: 16px crimson_textregular;
+}
+
+.middle-section {
+	background-color: rgb(228,229,231);
+}
+
+.main-images li {
+	background-color: white;
+	height: auto;
+	min-height: 250px;
+	width: 100%;
+}
+
+.main-images h3 {
+	font: 16px montserratregular;
+	font-weight: bold;
+}
+
+.image-gadget:not(.large-image) {
+	float: left;
+	width: 50%;
+}
+
+.image-gadget img {
+	width: 100%;
+	padding: 10px;
+}
+
+.gadget-description {
+	float: right;
+	text-align: left;
+	width: 40%;
+	padding: calc(18% - 25px) 10px 0 10px;
+}
+
+.price {
+	font: 14px montserratregular;
+	color: #343e5c;
+	font-weight: bold;
+}
+
+.item-color {
+	color: #a1a8bd;
+	font: 11px montserratregular;
+}
+

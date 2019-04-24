@@ -11,64 +11,288 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/mediaquery-mobile.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaquery-ipad.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaquery-destop.css"> -->
   <link rel="stylesheet" type="text/css" href="css/helper.css">
 </head>
 
 <body>
   <header class="clearfix">
-    <a href="#" class="header-menu"><img src="images/icon__menu.png" alt="More options"></a>
-    <img src="images/Portland.png" alt="portland ui logo" class="logo">
-    <button type="button" class="btn-signin">Sign In</button>
+    <div class="header-top-left hamburger-1">
+      <a href="#"><img src="images/icon__menu.png" alt="More options"></a>
+    </div>
+    <div class="header-top-right">
+      <img src="images/Portland.png" alt="portland ui logo" class="logo">
+      <button type="button" class="btn-signin">Sign In</button>
+    </div>
+
+    <div class="hamburger-items" id="menu-1">
+      <ul>
+        <li><a href="#" class="text-bold text-capitalize">Home</a></li>
+        <li><a href="#" class="text-bold text-capitalize">Devices</a></li>
+        <li><a href="#" class="text-bold text-capitalize">Delivery & Payment</a></li>
+        <li><a href="#" class="text-bold text-capitalize">Guarantee</a></li>
+        <li><a href="#" class="text-bold text-capitalize">About Us</a></li>
+
+      </ul>
+    </div>
+
+    <div class="searchbar">
+      <div class="icon-search"><a href="#"><img src="images/icon__search.png" alt="Search"></a></div>
+      <input placeholder="I'm looking for .." type="text" class="input-search" name="Search">
+      <div class="icon-cart"><a href="#"><img src="images/icon__cart.png" alt="Cart">
+          <span class="cart-items">0</span>
+        </a></div>
+    </div>
+
+    <div class="hamburger-items" id="menu-2">
+      <ul>
+        <li><a href="#" class="text-upper">top sales</a></li>
+        <li><a href="#" class="text-upper">brand focus</a></li>
+        <li><a href="#" class="text-upper">projects</a></li>
+        <li><a href="#" class="text-upper selected">hi-tech</a></li>
+        <li><a href="#" class="text-upper">best sellers</a></li>
+      </ul>
+    </div>
   </header>
 
-  <div class="searchbar">
-    <a href="#" class="icon-search"><img src="images/icon__search.png" alt="Search"></a>
-    <input placeholder="I'm looking for .." type="text" class="input-search" name="Search">
-    <a href="#" class="icon-cart"><img src="images/icon__cart.png" alt="Cart">
-      <span class="cart-items">0</span>
-    </a>
-  </div>
-
-  <nav class="scrollbar">
-    <ul>
-      <li><a href="#" class="to-upper">top sales</a></li>
-      <li><a href="#" class="to-upper">brand focus</a></li>
-      <li><a href="#" class="to-upper">projects</a></li>
-      <li><a href="#" class="to-upper selected">hi-tech</a></li>
-      <li><a href="#" class="to-upper">best sellers</a></li>
-    </ul>
-  </nav>
-
-  <div class="iphone6">
-    <a href="#"><img src="images/icon__iphone6.png" alt="iphone6" class="image-iphone6"></a>
-    <div class="text-iphone6">
-      <h2>iPhone 6 32Gb Black</h2>
-      <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
-        arms I held fast by him, or I should have fallen to the ground.</p>
+  <div class="slider">
+    <div class="iphone6">
+      <a href="#"><img src="images/icon__iphone6.png" alt="iphone6" class="image-iphone6"></a>
+      <div class="text-iphone6">
+        <h2>iPhone 6 32Gb Black</h2>
+        <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
+          arms I held fast by him, or I should have fallen to the ground.</p>
+      </div>
+      <button type="button" class="btn-buynow">Buy Now</button>
     </div>
-    <button type="button" class="btn-buynow">Buy Now</button>
   </div>
 
   <div class="filterbar">
-    <img src="images/icon__filter2.png" alt="Apply filters">
-    <input type="text" placeholder="Keywords" class="input-keyword">
-    <p>Sort By</p>
-    <img src="images/icon__drop-down.png" alt="drop-down">
+    <div class="hamburger-2"><a href="#"><img src="images/icon__menu.png" alt="Filters"></a></div>
+    <input type="text" placeholder="Keywords" class="filter-input">
+    <div class="filter-sortby"><a href="#">
+        <p>Sort By</p>
+        <div class="icon-dropdown"><img src="images/icon__drop-down.png" alt="drop-down"></div>
+      </a>
+    </div>
   </div>
 
-  <ul class="section-images">
-    <li><img src="images/image__apple-tv.png" alt="apple-tv"></li>
-    <li><img src="images/image__pebble-time.png" alt="apple-tv"></li>
-    <li><img src="images/image__zendure.png" alt="apple-tv"></li>
-    <li><img src="images/image__withings.png" alt="apple-tv"></li>
-    <li><img src="images/image__jbl-charge.png" alt="jbl charge"></li>
-    <li><img src="images/image__ollo.png" alt="apple-tv"></li>
-    <li><img src="images/image__fitbit.png" alt="apple-tv"></li>
-    <li><img src="images/image__apple-watch.png" alt="apple-tv"></li>
-    <li><img src="images/image__bose.png" alt="apple-tv"></li>
-    <li><img src="images/image__sonos.png" alt="apple-tv"></li>
-    <li><img src="images/image__thermostat.png" alt="apple-tv"></li>
-  </ul>
+  <div class="middle-section">
+    <ul class="main-images">
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__apple-tv.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Apple TV 32GB</h3>
+            <span class="item-color text-upper">black</span><br>
+            <span class="price">$49.99</span>
+          </div>
+        </a>
+      </li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__pebble-time.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Pebble Time</h3>
+            <span class="item-color text-upper">red</span><br>
+            <span class="price">$29.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__zendure.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Zendure 4-Port USB</h3>
+            <span class="item-color text-upper">white</span><br>
+            <span class="price">$49.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__withings.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Withings Smart Body Analyzer ws-50</h3>
+            <span class="item-color text-upper">black</span><br>
+            <span class="price">$39.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget large-image"><img src="images/image__jbl-charge.png" alt="jbl charge"></div>
+          <div class="gadget-description">
+            <h3>JBL Charge 2+</h3>
+            <span class="item-color text-upper">black</span><br>
+            <span class="price">$39.99</span>
+          </div>
+          <div class="jbl-buynow"><span>16 GB</span> <span class="text-upper">buy now</span></div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__ollo.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Ollo Clip New</h3>
+            <span class="item-color text-upper">silver</span><br>
+            <span class="price">$19.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__fitbit.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Fitbit Charge HR Heart Rate and Activity Tracker</h3>
+            <span class="item-color text-upper">black</span><br>
+            <span class="price">$19.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__apple-watch.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Apple Watch Sport 38mm Silver Aluminium Case</h3>
+            <span class="item-color text-upper">white</span><br>
+            <span class="price">$49.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__bose.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Bose SoundLink On-Ear Headphones</h3>
+            <span class="item-color text-upper">white</span><br>
+            <span class="price">$119.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__sonos.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Sonos Play-1 Wireless HiFi System</h3>
+            <span class="price">$99.99</span>
+          </div>
+        </a></li>
+      <li><a href="#">
+          <div class="image-gadget"><img src="images/image__thermostat.png" alt="apple-tv"></div>
+          <div class="gadget-description">
+            <h3>Nest Learning Thermostat, 3rd Generation</h3>
+            <span class="item-color text-upper">black</span><br>
+            <span class="price">$49.99</span>
+          </div>
+        </a></li>
+    </ul>
+  </div>
+
+  <div class="pagination">
+    <div class="previous"><img src="images/icon__previous.png" alt="Previous"></div>
+    <ul>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li>
+      <li><a href="#">7</a></li>
+      <li><a href="#">8</a></li>
+    </ul>
+    <div class="next"><img src="images/icon__next.png" alt="Next"></div>
+  </div>
+
+  <div class="best-sellers">
+    <div class="best-sellers-top"><span class="text-upper">best sellers</span></div>
+    <div class="best-sellers-bottom">
+      <ul>
+        <li><a href="#">
+            <div class="image-best-sellers"><img src="images/image__beanie.png" alt="beanie"></div>
+            <h3>Beanie</h3>
+            <span class="item-color text-upper">green</span><br>
+            <span class="price text-strike text-faded">$39.99</span>
+            <span class="price">$29.99</span>
+          </a></li>
+        <li><a href="#">
+            <div class="image-best-sellers"><img src="images/image__tshirt.png" alt="tshirt"></div>
+            <h3>T-Shirt With a Print</h3>
+            <span class="item-color text-upper">dark-blue</span><br>
+            <span class="price text-strike text-faded">$29.99</span>
+            <span class="price">$19.99</span>
+          </a></li>
+        <li><a href="#">
+            <div class="image-best-sellers"><img src="images/image__jacket.png" alt="jacket"></div>
+            <h3>Pile Lined Hooded Jacket</h3>
+            <span class="item-color text-upper">green</span><br>
+            <span class="price text-strike text-faded">$49.99</span>
+            <span class="price">$39.99</span>
+          </a></li>
+        <li><a href="#">
+            <div class="image-best-sellers"><img src="images/image__trainers.png" alt="trainers"></div>
+            <h3>Trainers</h3>
+            <span class="item-color text-upper">green</span><br>
+            <span class="price text-strike text-faded">$39.99</span>
+            <span class="price">$29.99</span>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="feedback">
+    <div class="feedback-top">
+      <h2>What Our Customers Have to Say</h2>
+      <p class="font-italic text-faded" Couple of Words About This Stories Section></p>
+    </div>
+
+    <div class="feedback-bottom">
+      <ul>
+        <li>
+          <img src="images/image__customer-1.png">
+          <span>Celia Fields</span>
+          <span class="text-faded">UX Expert</span>
+          <p>This I have produced as scantling of Jack's great eloquence and the force of his reasoning upon such
+            abstruse matters.</p>
+        </li>
+        <li>
+          <img src="images/image__customer-2.png">
+          <span>Alexander Lee</span>
+          <span class="text-faded">Founder</span>
+          <p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the
+            fire, and chuckled heartily.</p>
+        </li>
+        <li>
+          <img src="images/image__customer-3.png">
+          <span>Lenora Sandoval</span>
+          <span class="text-faded">Product Manager</span>
+          <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!'
+            she said.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-logo"><img src="images/Portland.png" alt="portland ui logo" class="logo"></div>
+      <div class="footer-top-right">
+        <ul>
+          <li class="text-upper"><a href="#">home</a></li>
+          <li class="text-upper"><a href="#">shop</a></li>
+          <li class="text-upper"><a href="#">team</a></li>
+          <li class="text-upper"><a href="#">about us</a></li>
+          <li class="text-upper"><a href="#">contacts</a></li>
+        </ul>
+
+        <ul class="social-platforms">
+          <li><a href="#"><img src="images/icon__twitter.png"></a></li>
+          <li><a href="#"><img src="images/icon__facebook.png"></a></li>
+          <li><a href="#"><img src="images/icon__google-plus.png"></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-bottom-left">She gave my mother such a turn, that I have always been convinced I am indebted to
+        Miss Betsey for having been
+        born on a Friday.</p>
+
+      <div class="footer-bottom-right">
+        <ul>
+          <li><a href="#" class="text-upper">privacy policy</a></li>
+          <li><a href="#" class="text-upper">terms and consitions</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

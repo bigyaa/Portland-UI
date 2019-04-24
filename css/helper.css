@@ -4,10 +4,30 @@
 	display: table;
 }
 
-.to-upper {
+.text-upper {
 	text-transform: uppercase;
 }
 
-.to-block {
+.text-block {
 	display: block;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.text-strike {
+	text-decoration: line-through;
+}
+
+.text-faded {
+	color: #b8bfd3;
+}
+
+.to-right {
+	float: right;
 }
