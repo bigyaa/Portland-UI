@@ -39,10 +39,6 @@
     overflow: hidden;
   }
 
-  #sideMenu {
-    /* float: left; */
-  }
-
   #middleSection {
     float: right;
     padding: 2% 4%;

@@ -116,27 +116,24 @@
       </div>
     </div>
 
-    <div id="sideMenu">
+    <div class="side-menu">
       <div id="itemCategories" class="side-menu-box">
         <ul>
-          <li><a href="#" title="Top Sales"><span>Top Sales</span>
-              <img src="images/icon__open.png" alt="Icon Open"></a></li>
-          <li><a href="#" title="Brand Focus"><span>Brand Focus</span>
-              <img src="images/icon__open.png" alt="Icon Open"></a></li>
-          <li><a href="#" title="Hi-Tech"><span>Hi-Tech</span>
-              <img src="images/icon__open.png" alt="Icon Open"></a>
-            <ul id="hiTechMenu">
-              <li><a href="#" title="Cell Phones" class="text-upper">Cell Phones</a></li>
-              <li><a href="#" title="Cameras" class="text-upper">Cameras</a></li>
-              <li><a href="#" title="Computers" class="text-upper">Computers</a></li>
-              <li><a href="#" title="TV, Audio" class="text-upper">TV, Audio</a></li>
-              <li><a href="#" title="Video Games" class="text-upper">Video Games</a></li>
-            </ul>
-          </li>
-          <li><a href="#" title="Home"><span>Home</span>
-              <img src="images/icon__open.png" alt="Icon Open"></a></li>
-          <li><a href="#" title="Sale"><span>Sale</span>
-              <img src="images/icon__open.png" alt="Icon Open"></a></li>
+          <li><a href="#" title="Top Sales"><span>Top Sales</span></a>
+            <img src="images/icon__open.png" alt="Icon Open"></li>
+          <li><a href="#" title="Brand Focus"><span>Brand Focus</span></a>
+            <img src="images/icon__open.png" alt="Icon Open"></li>
+          <li class="selected"><a href="#" title="Hi-Tech" class="selected-category"><span>Hi-Tech</span></a>
+            <img src="images/icon__open.png" alt="Icon Open"></li>
+          <li class="hi-tech-menu"><a href="#" title="Cell Phones" class="text-upper">Cell Phones</a></li>
+          <li class="hi-tech-menu"><a href="#" title="Cameras" class="text-upper">Cameras</a></li>
+          <li class="hi-tech-menu"><a href="#" title="Computers" class="text-upper">Computers</a></li>
+          <li class="hi-tech-menu"><a href="#" title="TV, Audio" class="text-upper">TV, Audio</a></li>
+          <li class="hi-tech-menu"><a href="#" title="Video Games" class="text-upper">Video Games</a></li>
+          <li><a href="#" title="Home"><span>Home</span></a>
+            <img src="images/icon__open.png" alt="Icon Open"></li>
+          <li><a href="#" title="Sale"><span>Sale</span></a>
+            <img src="images/icon__open.png" alt="Icon Open"></li>
         </ul>
       </div>
 
@@ -149,12 +146,12 @@
             <li><input type="radio" name="radio" checked="checked">
               <span class="radio-btn-text">In Storage</span>
               <span class="radio-btn"> </span>
-              <span class="text-faded">45</span>
+              <span class="text-faded found-quantity">45</span>
             </li>
             <li><input type="radio" name="radio">
               <span class="radio-btn-text">In Online-Shop</span>
               <span class="radio-btn"> </span>
-              <span class="text-faded">12</span>
+              <span class="text-faded found-quantity">12</span>
             </li>
           </ul>
         </div>
@@ -165,25 +162,27 @@
             <a href="#" title="All" class="text-upper">all</a>
           </div>
           <ul>
-            <li><input type="checkbox" checked="checked">
-              <span class="checkbox-text">Apple</span>
-              <span class="check-mark"> </span>
-              <span class="text-faded">32</span>
+            <li> <span class="checkbox-container"><input type="checkbox" checked="checked">
+                <span class="checkbox-text">Apple</span>
+                <span class="check-mark"> </span>
+                <span class="text-faded found-quantity">32</span>
+              </span>
             </li>
-            <li><input type="checkbox">
-              <span class="checkbox-text">JBL</span>
-              <span class="check-mark"> </span>
-              <span class="text-faded">14</span>
+            <li><span class="checkbox-container"><input type="checkbox">
+                <span class="checkbox-text">JBL</span>
+                <span class="check-mark"> </span>
+                <span class="text-faded found-quantity">14</span>
+              </span>
             </li>
             <li><input type="checkbox">
               <span class="checkbox-text">Bose</span>
               <span class="check-mark"> </span>
-              <span class="text-faded">3</span>
+              <span class="text-faded found-quantity">3</span>
             </li>
             <li><input type="checkbox">
               <span class="checkbox-text">Nest</span>
               <span class="check-mark"> </span>
-              <span class="text-faded">5</span>
+              <span class="text-faded found-quantity">5</span>
             </li>
           </ul>
         </div>
