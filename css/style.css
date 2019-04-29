@@ -4,8 +4,8 @@
 
 a {
 	text-decoration: none;
-	color: black;
 	display: inline-block;
+	font-family: montserratregular;
 }
 
 header {
@@ -53,6 +53,11 @@ body {
 	top: 10px;
 	padding: 13px 15px;
 	float: left;
+}
+
+#menuHeaderTop a {
+	font: 14px montserratregular;
+	color: #343e5c;
 }
 
 .btn-sign-in {
@@ -120,7 +125,8 @@ body input[type="text"] {
 
 .cart-items {
   background-color: rgb(227, 232, 240);
-  font: 11px montserratregular;
+	font: 11px montserratregular;
+	color: black;
 
   margin: 14px 0;
   padding: 5px 7px;
@@ -131,6 +137,7 @@ body input[type="text"] {
 .hi-tech-wrapper {
 	width: 100%;
 	background-color: black;
+	text-align: center;
 }
 
 .hi-tech {
@@ -142,6 +149,7 @@ body input[type="text"] {
 	box-sizing: border-box;
 	margin: 0 auto;
 	max-width: 945px;
+	overflow: hidden;
 }
 
 .image-iphone-6 {
@@ -155,7 +163,6 @@ body input[type="text"] {
 .text-iphone-6 {
 	color: white;
 	font: 16px crimson_textroman;
-	background-color: black;
 	min-height: 380px;
 	width: calc(40% + 30px);
 	position: relative;
@@ -347,6 +354,7 @@ border-bottom: 1px solid #e4e5e7;
 
 .main-items h3 {
 	font: 16px montserratregular;
+	color: black;
 	font-weight: bold;
 	background-color: transparent;
 }

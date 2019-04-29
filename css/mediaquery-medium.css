@@ -2,6 +2,11 @@
 
   .text-iphone-6 {
     font-size: 16px;
+    margin-left: 10%;
+  }
+
+  .hi-tech img {
+    margin-right: 10%;
   }
 
   .text-iphone-6 h2 {

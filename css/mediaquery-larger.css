@@ -1,4 +1,101 @@
 @media (min-width: 992px) {
+
+  .mobile-hide {
+    display: block;
+  }
+
+  .header-top * {
+    float:none;
+  }
+
+  .header-top {
+    position: relative;
+    line-height: 70px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(220, 224, 238);
+  }
+
+  .header-top-right {
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    padding-left: 2.4088%;
+    width: none;
+    }
+
+  .search-bar, .btn-sign-in {
+    display: none;
+  }
+
+  .icon-cart-larger img {
+    transform: translateY(5px);
+  }
+  
+  #menuHeaderTop a {
+    font: 14px montserratregular;
+    color: #343e5c;
+  }
+
+  #menuHeaderTop {
+    display: inline-block;
+    /* padding-left: 11.481%; */
+    text-align: center;
+    transform: translateX(50%);
+    /* line-height: 70px; */
+  }
+
+  #menuHeaderTop li {
+    padding: 0 10px;
+  }
+
+  #menuHeaderTop a {
+    font-weight: bold;
+  }
+
+  .header-top-right-larger,
+  .header-top-right-larger * {
+    display: inline-block;
+  }
+
+  .header-top-right-larger {
+    float: right;
+    margin-right: calc(8.214% - 3.571%);
+  }
+
+  .header-top-right-larger>*,
+  .header-top-right-larger a {
+    font: 11px montserratregular;
+    color: #343e5c;
+    font-weight: bold;
+  }
+
+  .icon-cart-larger {
+    padding-right: 2px;
+    word-spacing: 2px;
+  }
+
+  .btn-sign-in-larger {
+    background-color: white;
+    color: #343e5c;
+    font: 11px montserratregular;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 18px;
+    border: 1px solid rgb(174, 178, 192);
+  }
+
+  #menuHeaderBottom {
+    display: inline-block;
+  }
+
+  .slider img {
+    height: 700px;
+    width: 250px;
+  }
+
   .filter-bar-large > * {
     display: inline-block;
   }
@@ -37,9 +134,14 @@
   
   .filter-bar-large input {
     background-color: rgb(240, 242, 247);
-    padding: 9px 0px 9px 15px;
+    padding: 9px 0px 9px 7px;
     border-style: none;
     border-radius: 15px;
+  }
+
+  .filter-bar input[type="text"] {
+    padding-right: 6px;
+    width: 175px;
   }
 
   .main-items li:not(:nth-child(5)) {

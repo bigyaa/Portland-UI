@@ -7,6 +7,11 @@
   .text-iphone-6 p {
     font: 16px crimson_textroman;
   }
+  
+  .slider img {
+    height: 500px;
+    width: 150px;
+  }
 
   .filter-bar-large {
     background-color: white;
@@ -33,6 +38,10 @@
     border-radius: 15px;
   }
 
+  .btn-buy-now {
+    left: 30px;
+  }
+  
 .footer-menu li {
   display: inline-block;
   padding: 25px;
