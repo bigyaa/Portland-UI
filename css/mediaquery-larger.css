@@ -106,6 +106,7 @@
     color: #343e5c;
     font-weight: bold;
     padding: 15px 6px; 
+    margin-bottom: 15px;
   }
 
   .filter-bar-large input[type="number"] {
@@ -144,6 +145,10 @@
     width: 175px;
   }
 
+  .side-menu-wrapper {
+    text-align: left;
+  }
+  
   .main-items li:not(:nth-child(5)) {
     width: calc(100% / 2);
   }
@@ -151,18 +156,6 @@
   .gadget-description {
     transform: translateY(80%);
   }
-
-/*
-  #middleSection {
-    float: right;
-    padding: 2% 4%;
-  }
-
-  .main-items li {
-    max-height: 382px;
-    width: 270px;
-    margin: 15px;
-  } */
 
   .footer-top > * {
     display: inline-block;

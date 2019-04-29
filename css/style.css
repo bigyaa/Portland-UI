@@ -287,8 +287,14 @@ body input[type="text"] {
 display: block;
 }
 
+.side-menu-wrapper {
+	text-align: center;
+}
+
 .side-menu {
 	margin-bottom: 32px;
+	display: inline-block;
+	text-align: left;
 }
 
 .side-menu * {
