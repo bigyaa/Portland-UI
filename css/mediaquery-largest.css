@@ -21,56 +21,6 @@
 padding: 0 10px;
 }
 
-.header-bottom-right-larger>* {
-  display: inline-block;
-}
-
-.header-bottom-right-larger {
-  float: right;
-  line-height: 60px;
-}
-
-#support {
-  font: 11px montserratregular;
-  color: #b9bed1;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-right: 32px;
-  border-right: 1px solid #b9bed1;
-}
-
-.icon-search-larger {
-  padding-left: 22px;
-  padding-right: 14px;
-}
-
-.input-search-larger {
-  border: none;
-}
-
-.input-search-larger::placeholder {
-  color: #a1a7bd;
-  font: 14px montserratregular;
-}
-
-.search-larger {
-  padding: 22px;
-}
-
-#menuHeaderBottom li {
-  padding: 22px 15px;
-}
-
-#menuHeaderBottom li a {
-  font: 11px montserratregular;
-  font-weight: bold;
-  color: #b9bed1;
-}
-
-#menuHeaderBottom li a:hover {
-  color: #343e5c;
-  cursor: pointer;
-}
 
 .filter-bar-middle {
   padding: 0 45px 0 33px;
@@ -118,51 +68,56 @@ padding: 0 10px;
   margin-right: 0%;
 }
 
-  .main-items li:not(:nth-child(5)) {
-    width: calc(100% / 3);
-    height: 305px;
-  }
+.main-items li:not(:nth-child(5)) {
+  width: calc(100% / 3);
+  height: 305px;
+}
 
-  .main-items li {
-    margin: 30px 0;
-  }
+.main-items li {
+  margin: 30px 0;
+}
 
-  #middleSection {
-    padding: 2% 5%;
-  }
+#middleSection {
+  padding: 2% 5%;
+}
 
-  .mobile-hide {
-    display: inline-block;
-  }
+.mobile-hide {
+  display: inline-block;
+}
 
-  .image-gadget:not(.large-image) {
-    align-content: center;
-    transform: translateX(50%);
-  }
+.image-gadget:not(.large-image) {
+  align-content: center;
+  transform: translateX(50%);
+}
 
-  .side-menu {
-    float: left;
-  }
+.side-menu {
+  float: left;
+}
 
-  #middleSection {
-    padding-right: 0%;
-  }
+.side-menu-box {
+    width: 272px;
+    margin-top: 15px;
+}
 
-  .main-items li {
-    margin: 7px;
-    max-width: 270px;
-    overflow: hidden;
-    float: left;
-  }
+#middleSection {
+  padding-right: 0%;
+}
 
-  .gadget-description {
-    transform: translateY(-90%);
-  }
+.main-items li {
+  margin: 7px;
+  max-width: 270px;
+  overflow: hidden;
+  float: left;
+}
 
 .gadget-description {
-  float: left;
-  width: 100%;
-  text-align: center;
+  transform: translateY(-90%);
+}
+
+.gadget-description {
+float: left;
+width: 100%;
+text-align: center;
 }
 
 .pagination, .feedback , .best-sellers {
