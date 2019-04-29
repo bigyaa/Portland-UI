@@ -41,38 +41,6 @@
   .btn-buy-now {
     left: 30px;
   }
-/* 
-  .gadget-description {
-    float: none;
-    margin-right: 0%;
-    width: auto;
-  }
-
-  .image-gadget img {
-    width: 100%;
-  }
-
-  .main-items li,
-  .main-items a {
-    width: auto;
-    text-align: center;
-  }
-
-  .main-items {
-    margin-left: 30px;
-    margin-bottom: 30px;
-  }
-
-  .side-menu {
-    float: left;
-  }
-
-  .main-items li:not(:nth-child(5)) {
-    max-height: 382px;
-    width: 260px;
-    float: left;
-    /* margin: 10px; */
-  } */
 
 .footer-menu li {
   display: inline-block;
