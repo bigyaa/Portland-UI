@@ -33,7 +33,7 @@
   .icon-cart-larger img {
     transform: translateY(5px);
   }
-  
+
   #menuHeaderTop a {
     font: 14px montserratregular;
     color: #343e5c;
@@ -148,25 +148,21 @@
     width: calc(100% / 2);
   }
 
-  .main-items li {
-    margin: 7px;
-    max-width: 450px;
-    overflow: hidden;
+  .gadget-description {
+    transform: translateY(80%);
   }
 
+/*
   #middleSection {
     float: right;
     padding: 2% 4%;
   }
 
-  .best-sellers-bottom {
-    position: relative;
-  }
-
-  .item-description {
-    position: absolute;
-    bottom: 0;
-  }
+  .main-items li {
+    max-height: 382px;
+    width: 270px;
+    margin: 15px;
+  } */
 
   .footer-top > * {
     display: inline-block;
