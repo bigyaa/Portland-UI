@@ -8,7 +8,7 @@
     font: 11px montserratregular;
     color: #343e5c;
     font-weight: bold;
-    padding: 15px 21px; 
+    padding: 15px 6px; 
   }
 
   .filter-bar-large input[type="number"] {
@@ -22,6 +22,19 @@
     text-transform: uppercase
   }
 
+  .filter-bar-mobile {
+    display: none;
+  }
+
+  .filter-bar-middle {
+    padding: 0 11px 0 11px;
+    word-spacing: 7px;
+  }
+
+  .filter-bar-middle ul li:last-child {
+    word-spacing: 3px;
+  }
+  
   .filter-bar-large input {
     background-color: rgb(240, 242, 247);
     padding: 9px 0px 9px 15px;

@@ -8,14 +8,6 @@
     font: 16px crimson_textroman;
   }
 
-  .filter-bar-mobile {
-    display: none;
-  }
-
-  .filter-bar-large > * {
-    display: inline-block;
-  }
-
   .filter-bar-large {
     background-color: white;
     font: 11px montserratregular;
