@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+
+  .text-iphone-6 h2 {
+    font-size: 42px;
+  }
+
+  .text-iphone-6 p {
+    font: 16px crimson_textroman;
+  }
+
+  .filter-bar-mobile {
+    display: none;
+  }
+
+  .filter-bar-large > * {
+    display: inline-block;
+  }
+
+  .filter-bar-large {
+    background-color: white;
+    font: 11px montserratregular;
+    color: #343e5c;
+    font-weight: bold;
+  }
+
+  .filter-bar-large input[type="number"] {
+    width: 60px;
+  }
+
+  .filter-bar-variable {
+    font: 11px montserratregular;
+    color: #a1a7bd;
+    font-weight: bold;
+    text-transform: uppercase
+  }
+
+  .filter-bar-large input {
+    background-color: rgb(240, 242, 247);
+    padding: 9px 0px 9px 15px;
+    border-style: none;
+    border-radius: 15px;
+  }
+
+.footer-menu li {
+  display: inline-block;
+  padding: 25px;
+}
+
+.social-platforms {
+  display: inline-block;
+} 
+
+.footer-bottom-right li {
+  display: inline-block;
+  padding: 50px;
+}
+
+}

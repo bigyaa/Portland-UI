@@ -1,0 +1,14 @@
+@media (min-width: 480px) {
+
+  .text-iphone-6 {
+    font-size: 16px;
+  }
+
+  .text-iphone-6 h2 {
+    font-size: 31px;
+  }
+
+  .text-iphone-6 p {
+    font: 15px crimson_textroman;
+  }
+}

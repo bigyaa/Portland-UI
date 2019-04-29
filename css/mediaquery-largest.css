@@ -1,0 +1,37 @@
+@media (min-width: 1200px) {
+.hamburger-filter {
+  display: none;
+}
+
+  .main-items li:not(:nth-child(5)) {
+    width: calc(100% / 3);
+    height: 305px;
+  }
+
+  .main-items li {
+    margin: 30px 0;
+  }
+
+  #middleSection {
+    padding: 2% 5%;
+  }
+
+  .mobile-hide {
+    display: inline-block;
+  }
+
+  .image-gadget:not(.large-image) {
+    align-content: center;
+    transform: translateX(50%);
+  }
+
+.gadget-description {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.pagination, .feedback , .best-sellers {
+  margin-bottom: 52px;
+}
+}

@@ -1,0 +1,127 @@
+@media (min-width: 992px) {
+  .filter-bar-large > * {
+    display: inline-block;
+  }
+
+  .filter-bar-large {
+    background-color: white;
+    font: 11px montserratregular;
+    color: #343e5c;
+    font-weight: bold;
+    padding: 15px 21px; 
+  }
+
+  .filter-bar-large input[type="number"] {
+    width: 60px;
+  }
+
+  .filter-bar-variable {
+    font: 11px montserratregular;
+    color: #a1a7bd;
+    font-weight: bold;
+    text-transform: uppercase
+  }
+
+  .filter-bar-large input {
+    background-color: rgb(240, 242, 247);
+    padding: 9px 0px 9px 15px;
+    border-style: none;
+    border-radius: 15px;
+  }
+
+  .main-items li:not(:nth-child(5)) {
+    width: calc(100% / 2);
+  }
+
+  .main-items li {
+    margin: 7px;
+    max-width: 450px;
+    overflow: hidden;
+  }
+
+  #sideMenu {
+    /* float: left; */
+  }
+
+  #middleSection {
+    float: right;
+    padding: 2% 4%;
+  }
+
+  .best-sellers-bottom {
+    position: relative;
+  }
+
+  .item-description {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footer-top > * {
+    display: inline-block;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    padding: 8px 15px;
+  }
+  
+  .footer-top {
+      padding: 4.375rem;
+  }
+  
+  .footer-logo {
+    float: left;
+  }
+
+    .footer-top a {
+      color: white;
+      font: 12px montserratregular;
+    }
+    
+    .footer-top-right {
+      float: right;
+      width: calc(62% + 4.375rem + 14px);
+    }
+  
+    .footer-menu {
+      float: left;
+      padding-top: 0;
+    }
+
+    .social-platforms {
+      float: right;
+      transform: translateY(-18%);
+    }
+
+    .social-platforms li {
+      padding: 16px;
+    }
+    
+  .footer-bottom {
+    padding: 53px 4.375rem;
+    border-top: 1px solid rgb(106, 107, 109);
+  }
+  
+  .footer-bottom-left {
+    font: 14px crimson_textitalic;
+    text-align: left;
+    padding: 0;
+    float: left;
+    max-width: 520px;
+    }
+  
+    .footer-bottom-right {
+      text-align: left;
+      float: right;
+    }
+
+    .footer-bottom-right a {
+      font: 11px montserratregular;
+    }
+
+    .footer-bottom-right li {
+      padding: 13px;
+    }
+
+  }
