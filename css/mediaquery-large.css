@@ -59,7 +59,7 @@
     height: 205px;
   }
 
-  .main-items ul:nth-child(5) {
+  .main-items li:nth-child(5) {
     width: 100%;
   }
   
@@ -92,6 +92,7 @@
 
   #middleSection {
     padding-right: 0%;
+    padding-left: 4%;
   }
 
   .main-items li:not(:nth-child(5)) {
