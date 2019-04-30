@@ -234,6 +234,10 @@
     transform: translateX(50%);
   }
 
+  .gadget-description {
+    top: 90%;
+  }
+
   .side-menu {
     float: left;
   }

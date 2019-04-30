@@ -110,16 +110,6 @@ padding: 0 10px;
   float: left;
 }
 
-.gadget-description {
-  transform: translateY(-90%);
-}
-
-.gadget-description {
-float: left;
-width: 100%;
-text-align: center;
-}
-
 .pagination, .feedback , .best-sellers {
   margin-bottom: 52px;
 }
