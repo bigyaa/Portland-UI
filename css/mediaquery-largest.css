@@ -70,11 +70,7 @@ padding: 0 10px;
 
 .main-items li:not(:nth-child(5)) {
   width: calc(100% / 3);
-  height: 305px;
-}
-
-.main-items li {
-  margin: 30px 0;
+  height: 385px;
 }
 
 #middleSection {
@@ -105,7 +101,8 @@ padding: 0 10px;
 
 .main-items li {
   margin: 7px;
-  max-width: 270px;
+  max-width: 540px;
+  max-height: 385px;
   overflow: hidden;
   float: left;
 }
