@@ -188,6 +188,7 @@
     font-weight: bold;
     padding: 15px 6px; 
     margin-bottom: 15px;
+    border-radius: 7px;
   }
 
   .filter-bar-large input[type="number"] {

@@ -285,6 +285,7 @@ cursor: pointer;
 
 .filter-bar {
 	margin-bottom: 30px;
+	border-radius: 7px;
 }
 
 @media (max-width:992px) {
@@ -558,7 +559,7 @@ border-bottom: 1px solid #e4e5e7;
 }
 
 .pagination {
-	/* width: 84.28%; */
+	border-radius: 7px;
 	width: auto;
 	margin: 0 auto;
 	text-align: center;
