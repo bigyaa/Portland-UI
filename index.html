@@ -20,57 +20,59 @@
 
 <body>
   <header class="clearfix">
-    <div class="header-top clearfix">
-      <div class="header-top-left hamburger-header">
-        <a href="#" title="More Options"><img src="images/icon__menu.png" alt="More Options"></a>
+    <div id="headerWrapper">
+      <div class="header-top clearfix">
+        <div class="header-top-left hamburger-header">
+          <a href="#" title="More Options"><img src="images/icon__menu.png" alt="More Options"></a>
+        </div>
+
+        <div class="header-top-right">
+          <img src="images/Portland.png" alt="Portland Logo" class="logo">
+          <button type="button" class="btn-sign-in">Sign In</button>
+        </div>
+
+        <div class="hamburger-items" id="menuHeaderTop">
+          <ul>
+            <li><a href="#" title="Home" class="text-bold text-capitalize">Home</a></li>
+            <li><a href="#" title="Devices" class="text-bold text-capitalize">Devices</a></li>
+            <li><a href="#" title="Delivery and Payment" class="text-bold text-capitalize">Delivery & Payment</a></li>
+            <li><a href="#" title="Guarantee" class="text-bold text-capitalize">Guarantee</a></li>
+            <li><a href="#" title="About Us" class="text-bold text-capitalize">About Us</a></li>
+          </ul>
+        </div>
+        <div class="header-top-right-larger mobile-hide">
+          <div class="icon-cart-larger"><a href="#" title="Icon Cart"><img src="images/icon__cart.png" alt="Cart">
+              <span class="text-upper">CART</span><span class="cart-items">0</span>
+            </a></div>
+          <button type="button" class="btn-sign-in-larger">Sign In</button>
+        </div>
       </div>
 
-      <div class="header-top-right">
-        <img src="images/Portland.png" alt="Portland Logo" class="logo">
-        <button type="button" class="btn-sign-in">Sign In</button>
-      </div>
-
-      <div class="hamburger-items" id="menuHeaderTop">
-        <ul>
-          <li><a href="#" title="Home" class="text-bold text-capitalize">Home</a></li>
-          <li><a href="#" title="Devices" class="text-bold text-capitalize">Devices</a></li>
-          <li><a href="#" title="Delivery and Payment" class="text-bold text-capitalize">Delivery & Payment</a></li>
-          <li><a href="#" title="Guarantee" class="text-bold text-capitalize">Guarantee</a></li>
-          <li><a href="#" title="About Us" class="text-bold text-capitalize">About Us</a></li>
-        </ul>
-      </div>
-      <div class="header-top-right-larger mobile-hide">
-        <div class="icon-cart-larger"><a href="#" title="Icon Cart"><img src="images/icon__cart.png" alt="Cart">
-            <span class="text-upper">CART</span><span class="cart-items">0</span>
+      <div class="search-bar">
+        <div class="icon-search"><a href="#" title="Search"><img src="images/icon__search.png" alt="Search"></a></div>
+        <input placeholder="I'm looking for .." type="text" class="input-search" name="Search">
+        <div class="icon-cart"><a href="#" title="Icon Cart"><img src="images/icon__cart.png" alt="Cart">
+            <span class="cart-items">0</span>
           </a></div>
-        <button type="button" class="btn-sign-in-larger">Sign In</button>
-      </div>
-    </div>
-
-    <div class="search-bar">
-      <div class="icon-search"><a href="#" title="Search"><img src="images/icon__search.png" alt="Search"></a></div>
-      <input placeholder="I'm looking for .." type="text" class="input-search" name="Search">
-      <div class="icon-cart"><a href="#" title="Icon Cart"><img src="images/icon__cart.png" alt="Cart">
-          <span class="cart-items">0</span>
-        </a></div>
-    </div>
-
-    <div class="hamburger-items">
-      <div id="menuHeaderBottom">
-        <ul>
-          <li><a href="#" title="Top Sales" class="text-upper text-faded">top sales</a></li>
-          <li><a href="#" title="Brand Focus" class="text-upper text-faded">brand focus</a></li>
-          <li><a href="#" title="Projects" class="text-upper text-faded">projects</a></li>
-          <li><a href="#" title="Hi-Tech" class="text-upper text-faded selected">hi-tech</a></li>
-          <li><a href="#" title="Best Sellers" class="text-upper text-faded">best sellers</a></li>
-        </ul>
       </div>
 
-      <div class="header-bottom-right-larger mobile-hide">
-        <span id="support" class="text-upper">Support</span>
-        <div class="icon-search-larger"><a href="#" title="Search">
-            <img src="images/icon__search.png" alt="Search"></a></div>
-        <input placeholder="I'm looking for .." type="text" class="input-search-larger" name="Search">
+      <div class="hamburger-items">
+        <div id="menuHeaderBottom">
+          <ul>
+            <li><a href="#" title="Top Sales" class="text-upper text-faded">top sales</a></li>
+            <li><a href="#" title="Brand Focus" class="text-upper text-faded">brand focus</a></li>
+            <li><a href="#" title="Projects" class="text-upper text-faded">projects</a></li>
+            <li><a href="#" title="Hi-Tech" class="text-upper text-faded selected">hi-tech</a></li>
+            <li><a href="#" title="Best Sellers" class="text-upper text-faded">best sellers</a></li>
+          </ul>
+        </div>
+
+        <div class="header-bottom-right-larger mobile-hide">
+          <span id="support" class="text-upper">Support</span>
+          <div class="icon-search-larger"><a href="#" title="Search">
+              <img src="images/icon__search.png" alt="Search"></a></div>
+          <input placeholder="I'm looking for .." type="text" class="input-search-larger" name="Search">
+        </div>
       </div>
     </div>
   </header>
@@ -90,345 +92,349 @@
     </div>
   </div>
 
-  <div id="mainSection">
-    <div class="filter-bar">
-      <div class="hamburger-filter filter-bar-mobile"><a href="#" title="Filters"><img src="images/levels.png"
-            alt="Filter"></a></div>
+  <div id="mainSectionWrapper">
+    <div id="mainSection">
+      <div class="filter-bar">
+        <div class="hamburger-filter filter-bar-mobile"><a href="#" title="Filters"><img src="images/levels.png"
+              alt="Filter"></a></div>
 
-      <div class="filter-bar-large">
-        <ul>
-          <li class="filter-bar-left">
-            <span class="filter-bar-variable"> Sort By:</span>
-            <span class="text-upper">Best Match
-              <img src="images/icon__drop-down.png" alt="Drop-down Icon">
-            </span>
-          </li>
-          <li class="filter-bar-middle">
-            <ul class="filter-bar-middle-content">
-              <li>
-                <span class="filter-bar-variable"> Keywords</span>
-                <input type="text" placeholder="Tablet" name="Search..">
-              </li>
-              <li>
-                <span class="filter-bar-variable">Price</span>
-                <input type="number" placeholder="10" name="Minimum Price"> -
-                <input type="number" placeholder="1000" name="Maximum Price">
-              </li>
-              <li>
-                <input type="checkbox" checked="checked">
-                <span>Free Shipping</span>
-                <span class="circular-checkbox"> </span>
-              </li>
-            </ul>
-          </li>
-          <li class="filter-bar-right">
-            <span class="filter-bar-variable">Ship To:</span>
-            <span class="text-upper">USA
-              <img src="images/icon__drop-down.png" alt="Drop-down Icon">
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="side-menu-wrapper">
-      <div class="side-menu">
-        <div id="itemCategories" class="side-menu-box">
+        <div class="filter-bar-large">
           <ul>
-            <li><a href="#" title="Top Sales"><span>Top Sales</span></a>
-              <img src="images/icon__open.png" alt="Icon Open"></li>
-            <li><a href="#" title="Brand Focus"><span>Brand Focus</span></a>
-              <img src="images/icon__open.png" alt="Icon Open"></li>
-            <li class="selected"><a href="#" title="Hi-Tech" class="selected-category"><span>Hi-Tech</span></a>
-              <img src="images/icon__open.png" alt="Icon Open"></li>
-            <li class="hi-tech-menu"><a href="#" title="Cell Phones" class="text-upper">Cell Phones</a></li>
-            <li class="hi-tech-menu"><a href="#" title="Cameras" class="text-upper">Cameras</a></li>
-            <li class="hi-tech-menu"><a href="#" title="Computers" class="text-upper">Computers</a></li>
-            <li class="hi-tech-menu"><a href="#" title="TV, Audio" class="text-upper">TV, Audio</a></li>
-            <li class="hi-tech-menu"><a href="#" title="Video Games" class="text-upper">Video Games</a></li>
-            <li><a href="#" title="Home"><span>Home</span></a>
-              <img src="images/icon__open.png" alt="Icon Open"></li>
-            <li><a href="#" title="Sale"><span>Sale</span></a>
-              <img src="images/icon__open.png" alt="Icon Open"></li>
+            <li class="filter-bar-left">
+              <span class="filter-bar-variable"> Sort By:</span>
+              <span class="text-upper">Best Match
+                <img src="images/icon__drop-down.png" alt="Drop-down Icon">
+              </span>
+            </li>
+            <li class="filter-bar-middle">
+              <ul class="filter-bar-middle-content">
+                <li>
+                  <span class="filter-bar-variable"> Keywords</span>
+                  <input type="text" placeholder="Tablet" name="Search..">
+                </li>
+                <li>
+                  <span class="filter-bar-variable">Price</span>
+                  <input type="number" placeholder="10" name="Minimum Price"> -
+                  <input type="number" placeholder="1000" name="Maximum Price">
+                </li>
+                <li>
+                  <input type="checkbox" checked="checked">
+                  <span>Free Shipping</span>
+                  <span class="circular-checkbox"> </span>
+                </li>
+              </ul>
+            </li>
+            <li class="filter-bar-right">
+              <span class="filter-bar-variable">Ship To:</span>
+              <span class="text-upper">USA
+                <img src="images/icon__drop-down.png" alt="Drop-down Icon">
+              </span>
+            </li>
           </ul>
         </div>
+      </div>
 
-        <div id="availableAndBrandsOptions" class="side-menu-box">
-          <div id="available">
+      <div class="side-menu-wrapper">
+        <div class="side-menu">
+          <div id="itemCategories" class="side-menu-box">
+            <ul>
+              <li><a href="#" title="Top Sales"><span>Top Sales</span></a>
+                <img src="images/icon__open.png" alt="Icon Open"></li>
+              <li><a href="#" title="Brand Focus"><span>Brand Focus</span></a>
+                <img src="images/icon__open.png" alt="Icon Open"></li>
+              <li class="selected"><a href="#" title="Hi-Tech" class="selected-category"><span>Hi-Tech</span></a>
+                <img src="images/icon__open.png" alt="Icon Open"></li>
+              <li class="hi-tech-menu"><a href="#" title="Cell Phones" class="text-upper">Cell Phones</a></li>
+              <li class="hi-tech-menu"><a href="#" title="Cameras" class="text-upper">Cameras</a></li>
+              <li class="hi-tech-menu"><a href="#" title="Computers" class="text-upper">Computers</a></li>
+              <li class="hi-tech-menu"><a href="#" title="TV, Audio" class="text-upper">TV, Audio</a></li>
+              <li class="hi-tech-menu"><a href="#" title="Video Games" class="text-upper">Video Games</a></li>
+              <li><a href="#" title="Home"><span>Home</span></a>
+                <img src="images/icon__open.png" alt="Icon Open"></li>
+              <li><a href="#" title="Sale"><span>Sale</span></a>
+                <img src="images/icon__open.png" alt="Icon Open"></li>
+            </ul>
+          </div>
+
+          <div id="availableAndBrandsOptions" class="side-menu-box">
+            <div id="available">
+              <div class="side-menu-header">
+                <span class="text-upper">Available</span>
+              </div>
+              <ul>
+                <li><input type="radio" name="radio" checked="checked">
+                  <span class="radio-btn-text">In Storage</span>
+                  <span class="radio-btn"> </span>
+                  <span class="text-faded found-quantity">45</span>
+                </li>
+                <li><input type="radio" name="radio">
+                  <span class="radio-btn-text">In Online-Shop</span>
+                  <span class="radio-btn"> </span>
+                  <span class="text-faded found-quantity">12</span>
+                </li>
+              </ul>
+            </div>
+
+            <div id="brands">
+              <div class="side-menu-header">
+                <span class="text-upper">Brands</span>
+                <a href="#" title="All" class="text-upper">all</a>
+              </div>
+              <ul>
+                <li> <span class="checkbox-container"><input type="checkbox" checked="checked">
+                    <span class="checkbox-text">Apple</span>
+                    <span class="check-mark"> </span>
+                    <span class="text-faded found-quantity">32</span>
+                  </span>
+                </li>
+                <li><span class="checkbox-container"><input type="checkbox">
+                    <span class="checkbox-text">JBL</span>
+                    <span class="check-mark"> </span>
+                    <span class="text-faded found-quantity">14</span>
+                  </span>
+                </li>
+                <li><input type="checkbox">
+                  <span class="checkbox-text">Bose</span>
+                  <span class="check-mark"> </span>
+                  <span class="text-faded found-quantity">3</span>
+                </li>
+                <li><input type="checkbox">
+                  <span class="checkbox-text">Nest</span>
+                  <span class="check-mark"> </span>
+                  <span class="text-faded found-quantity">5</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="condition" class="side-menu-box">
             <div class="side-menu-header">
-              <span class="text-upper">Available</span>
+              <span class="text-upper">Condition</span>
+              <a href="#" title="See All" class="text-upper">See All</a>
+            </div>
+            <ul>
+              <li><input type="checkbox" checked="checked">
+                <span class="checkbox-text">New</span>
+                <span class="check-mark"> </span>
+              </li>
+              <li><input type="checkbox">
+                <span class="checkbox-text">Manufacturer Refurbished</span>
+                <span class="check-mark"> </span>
+              </li>
+              <li><input type="checkbox">
+                <span class="checkbox-text">Seller Refurbished</span>
+                <span class="check-mark"> </span>
+              </li>
+              <li><input type="checkbox" checked="checked">
+                <span class="checkbox-text">Used</span>
+                <span class="check-mark"> </span>
+              </li>
+              <li><input type="checkbox">
+                <span class="checkbox-text">For Parts or not Working</span>
+                <span class="check-mark"> </span>
+              </li>
+            </ul>
+          </div>
+
+          <div id="deliveryOptions" class="side-menu-box">
+            <div class="side-menu-header">
+              <span class="text-upper">Delivery Options</span>
             </div>
             <ul>
               <li><input type="radio" name="radio" checked="checked">
-                <span class="radio-btn-text">In Storage</span>
+                <span class="radio-btn-text">Free</span>
                 <span class="radio-btn"> </span>
-                <span class="text-faded found-quantity">45</span>
               </li>
               <li><input type="radio" name="radio">
-                <span class="radio-btn-text">In Online-Shop</span>
+                <span class="radio-btn-text">$4.99</span>
                 <span class="radio-btn"> </span>
-                <span class="text-faded found-quantity">12</span>
               </li>
             </ul>
           </div>
-
-          <div id="brands">
-            <div class="side-menu-header">
-              <span class="text-upper">Brands</span>
-              <a href="#" title="All" class="text-upper">all</a>
-            </div>
-            <ul>
-              <li> <span class="checkbox-container"><input type="checkbox" checked="checked">
-                  <span class="checkbox-text">Apple</span>
-                  <span class="check-mark"> </span>
-                  <span class="text-faded found-quantity">32</span>
-                </span>
-              </li>
-              <li><span class="checkbox-container"><input type="checkbox">
-                  <span class="checkbox-text">JBL</span>
-                  <span class="check-mark"> </span>
-                  <span class="text-faded found-quantity">14</span>
-                </span>
-              </li>
-              <li><input type="checkbox">
-                <span class="checkbox-text">Bose</span>
-                <span class="check-mark"> </span>
-                <span class="text-faded found-quantity">3</span>
-              </li>
-              <li><input type="checkbox">
-                <span class="checkbox-text">Nest</span>
-                <span class="check-mark"> </span>
-                <span class="text-faded found-quantity">5</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div id="condition" class="side-menu-box">
-          <div class="side-menu-header">
-            <span class="text-upper">Condition</span>
-            <a href="#" title="See All" class="text-upper">See All</a>
-          </div>
-          <ul>
-            <li><input type="checkbox" checked="checked">
-              <span class="checkbox-text">New</span>
-              <span class="check-mark"> </span>
-            </li>
-            <li><input type="checkbox">
-              <span class="checkbox-text">Manufacturer Refurbished</span>
-              <span class="check-mark"> </span>
-            </li>
-            <li><input type="checkbox">
-              <span class="checkbox-text">Seller Refurbished</span>
-              <span class="check-mark"> </span>
-            </li>
-            <li><input type="checkbox" checked="checked">
-              <span class="checkbox-text">Used</span>
-              <span class="check-mark"> </span>
-            </li>
-            <li><input type="checkbox">
-              <span class="checkbox-text">For Parts or not Working</span>
-              <span class="check-mark"> </span>
-            </li>
-          </ul>
-        </div>
-
-        <div id="deliveryOptions" class="side-menu-box">
-          <div class="side-menu-header">
-            <span class="text-upper">Delivery Options</span>
-          </div>
-          <ul>
-            <li><input type="radio" name="radio" checked="checked">
-              <span class="radio-btn-text">Free</span>
-              <span class="radio-btn"> </span>
-            </li>
-            <li><input type="radio" name="radio">
-              <span class="radio-btn-text">$4.99</span>
-              <span class="radio-btn"> </span>
-            </li>
-          </ul>
         </div>
       </div>
-    </div>
 
-    <div id="middleSection">
-      <ul class="main-items ">
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__apple-tv.png" alt="Apple TV"></div>
-            <div class="gadget-description clearfix">
-              <h3>Apple TV 32GB</h3>
-              <span class="item-color text-upper">black</span><br>
-              <span class="price">$49.99</span>
-            </div>
-          </a>
-        </li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__pebble-time.png" alt="Peeble Time"></div>
-            <div class="gadget-description">
-              <h3>Pebble Time</h3>
-              <span class="item-color text-upper">red</span><br>
-              <span class="price">$29.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__zendure.png" alt="Zendure"></div>
-            <div class="gadget-description">
-              <h3>Zendure 4-Port USB</h3>
-              <span class="item-color text-upper">white</span><br>
-              <span class="price">$49.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__withings.png" alt="Withings"></div>
-            <div class="gadget-description">
-              <h3>Withings Smart Body Analyzer ws-50</h3>
-              <span class="item-color text-upper">black</span><br>
-              <span class="price">$39.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="price-on-image">
-              <div class="image-gadget large-image"><img src="images/image__jbl-charge.png" alt="JBL Charge">
-              </div>
-              <span class="price-jbl">$39.99</span>
-            </div>
-            <div class="item-extra-specs clearfix">
-              <div class="gadget-description-jbl">
-                <h3>JBL Charge 2+</h3>
+      <div id="middleSection">
+        <ul class="main-items ">
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__apple-tv.png" alt="Apple TV"></div>
+              <div class="gadget-description clearfix">
+                <h3>Apple TV 32GB</h3>
                 <span class="item-color text-upper">black</span><br>
+                <span class="price">$49.99</span>
               </div>
-              <div class="jbl-buy-now"><span class="memory">16 GB</span> <span class="buy text-upper">buy now</span>
+            </a>
+          </li>
+
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__pebble-time.png" alt="Peeble Time"></div>
+              <div class="gadget-description">
+                <h3>Pebble Time</h3>
+                <span class="item-color text-upper">red</span><br>
+                <span class="price">$29.99</span>
               </div>
-            </div>
-          </a></li>
+            </a></li>
 
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__ollo.png" alt="Ollo"></div>
-            <div class="gadget-description">
-              <h3>Ollo Clip New</h3>
-              <span class="item-color text-upper">silver</span><br>
-              <span class="price">$19.99</span>
-            </div>
-          </a></li>
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__zendure.png" alt="Zendure"></div>
+              <div class="gadget-description">
+                <h3>Zendure 4-Port USB</h3>
+                <span class="item-color text-upper">white</span><br>
+                <span class="price">$49.99</span>
+              </div>
+            </a></li>
 
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__fitbit.png" alt="Fitbit"></div>
-            <div class="gadget-description">
-              <h3>Fitbit Charge HR Heart Rate and Activity Tracker</h3>
-              <span class="item-color text-upper">black</span><br>
-              <span class="price">$19.99</span>
-            </div>
-          </a></li>
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__withings.png" alt="Withings"></div>
+              <div class="gadget-description">
+                <h3>Withings Smart Body Analyzer ws-50</h3>
+                <span class="item-color text-upper">black</span><br>
+                <span class="price">$39.99</span>
+              </div>
+            </a></li>
 
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__apple-watch.png" alt="Apple Watch"></div>
-            <div class="gadget-description">
-              <h3>Apple Watch Sport 38mm Silver Aluminium Case</h3>
-              <span class="item-color text-upper">white</span><br>
-              <span class="price">$49.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__bose.png" alt="Bose"></div>
-            <div class="gadget-description">
-              <h3>Bose SoundLink On-Ear Headphones</h3>
-              <span class="item-color text-upper">white</span><br>
-              <span class="price">$119.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__sonos.png" alt="Sonos"></div>
-            <div class="gadget-description">
-              <h3>Sonos Play-1 Wireless HiFi System</h3>
-              <span class="price">$99.99</span>
-            </div>
-          </a></li>
-
-        <li><a href="#" title="Item Specifications">
-            <div class="image-gadget"><img src="images/image__thermostat.png" alt="Thermostat"></div>
-            <div class="gadget-description">
-              <h3>Nest Learning Thermostat, 3rd Generation</h3>
-              <span class="item-color text-upper">black</span><br>
-              <span class="price">$49.99</span>
-            </div>
-          </a></li>
-      </ul>
-    </div>
-
-    <div class="pagination">
-      <div class="previous"><img src="images/icon__previous.png" alt="Previous"></div>
-      <ul>
-        <li><a href="#" title="Page 1">1</a></li>
-        <li><a href="#" title="Page 2">2</a></li>
-        <li><a href="#" title="Page 3">3</a></li>
-        <li><a href="#" title="Page 4" class="current-page">4</a></li>
-        <li><a href="#" title="Page 5" class="mobile-hide">5</a></li>
-        <li><a href="#" title="Page 6" class="mobile-hide">6</a></li>
-        <li><a href="#" title="Page 7" class="mobile-hide">7</a></li>
-        <li><a href="#" title="Page 8" class="mobile-hide">8</a></li>
-      </ul>
-
-      <div class="next"><img src="images/icon__next.png" alt="Next"></div>
-    </div>
-
-    <div class="best-sellers">
-      <div class="best-sellers-top"><span class="text-upper">best sellers</span></div>
-      <div class="best-sellers-bottom">
-        <ul>
-          <li class="best-seller"><a href="#" title="Beanie">
-              <div class="image-best-sellers"><img src="images/image__beanie.png" alt="Beanie"></div>
-              <div class="item-description">
-                <h3>Beanie</h3>
-                <div class="price">
-                  <span class="item-color text-upper">green</span><br>
-                  <span class="text-strike text-faded">$39.99</span>
-                  <span>$29.99</span>
+          <li><a href="#" title="Item Specifications">
+              <div class="price-on-image">
+                <div class="image-gadget large-image"><img src="images/image__jbl-charge.png" alt="JBL Charge">
+                </div>
+                <span class="price-jbl">$39.99</span>
+              </div>
+              <div class="item-extra-specs clearfix">
+                <div class="gadget-description-jbl">
+                  <h3>JBL Charge 2+</h3>
+                  <span class="item-color text-upper">black</span><br>
+                </div>
+                <div class="jbl-buy-now"><span class="memory">16 GB</span> <span class="buy text-upper">buy now</span>
                 </div>
               </div>
             </a></li>
 
-          <li class="best-seller"><a href="#" title="T-shirt">
-              <div class="image-best-sellers"><img src="images/image__tshirt.png" alt="T-shirt"></div>
-              <div class="item-description">
-                <h3>T-Shirt With a Print</h3>
-                <span class="item-color text-upper">dark-blue</span><br>
-                <div class="price">
-                  <span class="text-strike text-faded">$29.99</span>
-                  <span>$19.99</span>
-                </div>
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__ollo.png" alt="Ollo"></div>
+              <div class="gadget-description">
+                <h3>Ollo Clip New</h3>
+                <span class="item-color text-upper">silver</span><br>
+                <span class="price">$19.99</span>
               </div>
             </a></li>
 
-          <li class="best-seller"><a href="#" title="Jacket">
-              <div class="image-best-sellers"><img src="images/image__jacket.png" alt="Jacket"></div>
-              <div class="item-description">
-                <h3>Pile Lined Hooded Jacket</h3>
-                <span class="item-color text-upper">green</span><br>
-                <div class="price">
-                  <span class="text-strike text-faded">$49.99</span>
-                  <span>$39.99</span>
-                </div>
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__fitbit.png" alt="Fitbit"></div>
+              <div class="gadget-description">
+                <h3>Fitbit Charge HR Heart Rate and Activity Tracker</h3>
+                <span class="item-color text-upper">black</span><br>
+                <span class="price">$19.99</span>
               </div>
             </a></li>
 
-          <li class="best-seller"><a href="#" title="Trainers">
-              <div class="image-best-sellers"><img src="images/image__trainers.png" alt="Trainers"></div>
-              <div class="item-description">
-                <h3>Trainers</h3>
-                <span class="item-color text-upper">green</span><br>
-                <div class="price">
-                  <span class="text-strike text-faded">$39.99</span>
-                  <span>$29.99</span>
-                </div>
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__apple-watch.png" alt="Apple Watch"></div>
+              <div class="gadget-description">
+                <h3>Apple Watch Sport 38mm Silver Aluminium Case</h3>
+                <span class="item-color text-upper">white</span><br>
+                <span class="price">$49.99</span>
+              </div>
+            </a></li>
+
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__bose.png" alt="Bose"></div>
+              <div class="gadget-description">
+                <h3>Bose SoundLink On-Ear Headphones</h3>
+                <span class="item-color text-upper">white</span><br>
+                <span class="price">$119.99</span>
+              </div>
+            </a></li>
+
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__sonos.png" alt="Sonos"></div>
+              <div class="gadget-description">
+                <h3>Sonos Play-1 Wireless HiFi System</h3>
+                <span class="price">$99.99</span>
+              </div>
+            </a></li>
+
+          <li><a href="#" title="Item Specifications">
+              <div class="image-gadget"><img src="images/image__thermostat.png" alt="Thermostat"></div>
+              <div class="gadget-description">
+                <h3>Nest Learning Thermostat, 3rd Generation</h3>
+                <span class="item-color text-upper">black</span><br>
+                <span class="price">$49.99</span>
               </div>
             </a></li>
         </ul>
+      </div>
+
+      <div class="pagination">
+        <div class="previous"><img src="images/icon__previous.png" alt="Previous"></div>
+        <ul>
+          <li><a href="#" title="Page 1">1</a></li>
+          <li><a href="#" title="Page 2">2</a></li>
+          <li><a href="#" title="Page 3">3</a></li>
+          <li><a href="#" title="Page 4" class="current-page">4</a></li>
+          <li><a href="#" title="Page 5" class="mobile-hide">5</a></li>
+          <li><a href="#" title="Page 6" class="mobile-hide">6</a></li>
+          <li><a href="#" title="Page 7" class="mobile-hide">7</a></li>
+          <li><a href="#" title="Page 8" class="mobile-hide">8</a></li>
+        </ul>
+
+        <div class="next"><img src="images/icon__next.png" alt="Next"></div>
+      </div>
+    </div>
+
+    <div id="bestSellersWrapper">
+      <div class="best-sellers">
+        <div class="best-sellers-top"><span class="text-upper">best sellers</span></div>
+        <div class="best-sellers-bottom">
+          <ul>
+            <li class="best-seller"><a href="#" title="Beanie">
+                <div class="image-best-sellers"><img src="images/image__beanie.png" alt="Beanie"></div>
+                <div class="item-description">
+                  <h3>Beanie</h3>
+                  <div class="price">
+                    <span class="item-color text-upper">green</span><br>
+                    <span class="text-strike text-faded">$39.99</span>
+                    <span>$29.99</span>
+                  </div>
+                </div>
+              </a></li>
+
+            <li class="best-seller"><a href="#" title="T-shirt">
+                <div class="image-best-sellers"><img src="images/image__tshirt.png" alt="T-shirt"></div>
+                <div class="item-description">
+                  <h3>T-Shirt With a Print</h3>
+                  <span class="item-color text-upper">dark-blue</span><br>
+                  <div class="price">
+                    <span class="text-strike text-faded">$29.99</span>
+                    <span>$19.99</span>
+                  </div>
+                </div>
+              </a></li>
+
+            <li class="best-seller"><a href="#" title="Jacket">
+                <div class="image-best-sellers"><img src="images/image__jacket.png" alt="Jacket"></div>
+                <div class="item-description">
+                  <h3>Pile Lined Hooded Jacket</h3>
+                  <span class="item-color text-upper">green</span><br>
+                  <div class="price">
+                    <span class="text-strike text-faded">$49.99</span>
+                    <span>$39.99</span>
+                  </div>
+                </div>
+              </a></li>
+
+            <li class="best-seller"><a href="#" title="Trainers">
+                <div class="image-best-sellers"><img src="images/image__trainers.png" alt="Trainers"></div>
+                <div class="item-description">
+                  <h3>Trainers</h3>
+                  <span class="item-color text-upper">green</span><br>
+                  <div class="price">
+                    <span class="text-strike text-faded">$39.99</span>
+                    <span>$29.99</span>
+                  </div>
+                </div>
+              </a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -483,36 +489,38 @@
   </div>
 
   <footer>
-    <div class="footer-top">
-      <div class="footer-logo"><a href="#" title="Bottom Logo"><img src="images/logo-white.png"
-            alt="portland ui logo"></a></div>
-      <div class="footer-top-right">
-        <ul class="footer-menu">
-          <li class="text-upper"><a href="#" title="Home">Home</a></li>
-          <li class="text-upper"><a href="#" title="Shop">Shop</a></li>
-          <li class="text-upper"><a href="#" title="Team">Team</a></li>
-          <li class="text-upper"><a href="#" title="About Us">About Us</a></li>
-          <li class="text-upper"><a href="#" title="Contacts">Contacts</a></li>
-        </ul>
+    <div id="footerWrapper">
+      <div class="footer-top">
+        <div class="footer-logo"><a href="#" title="Bottom Logo"><img src="images/logo-white.png"
+              alt="portland ui logo"></a></div>
+        <div class="footer-top-right">
+          <ul class="footer-menu">
+            <li class="text-upper"><a href="#" title="Home">Home</a></li>
+            <li class="text-upper"><a href="#" title="Shop">Shop</a></li>
+            <li class="text-upper"><a href="#" title="Team">Team</a></li>
+            <li class="text-upper"><a href="#" title="About Us">About Us</a></li>
+            <li class="text-upper"><a href="#" title="Contacts">Contacts</a></li>
+          </ul>
 
-        <ul class="social-platforms">
-          <li><a href="#" title="Twitter"><img src="images/icon__twitter.png" alt="Twitter"></a></li>
-          <li><a href="#" title="Facebook"><img src="images/icon__facebook.png" alt="Facebook"></a></li>
-          <li><a href="#" title="Google Plus"><img src="images/icon__google-plus.png" alt="Google Plus"></a></li>
-        </ul>
+          <ul class="social-platforms">
+            <li><a href="#" title="Twitter"><img src="images/icon__twitter.png" alt="Twitter"></a></li>
+            <li><a href="#" title="Facebook"><img src="images/icon__facebook.png" alt="Facebook"></a></li>
+            <li><a href="#" title="Google Plus"><img src="images/icon__google-plus.png" alt="Google Plus"></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="footer-bottom">
-      <p class="footer-bottom-left">She gave my mother such a turn, that I have always been convinced I am indebted to
-        Miss Betsey for having been
-        born on a Friday.</p>
+      <div class="footer-bottom">
+        <p class="footer-bottom-left">She gave my mother such a turn, that I have always been convinced I am indebted to
+          Miss Betsey for having been
+          born on a Friday.</p>
 
-      <div class="footer-bottom-right">
-        <ul>
-          <li><a href="#" title="Privacy Policy" class="text-upper">privacy policy</a></li>
-          <li><a href="#" title="Terms and Condition" class="text-upper">terms and conditions</a></li>
-        </ul>
+        <div class="footer-bottom-right">
+          <ul>
+            <li><a href="#" title="Privacy Policy" class="text-upper">privacy policy</a></li>
+            <li><a href="#" title="Terms and Condition" class="text-upper">terms and conditions</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>

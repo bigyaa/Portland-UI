@@ -11,7 +11,11 @@ a {
 header {
 	background-color: white;
 	border-bottom: 1px solid rgb(220, 224, 238);
+}
 
+#headerWrapper, #mainSectionWrapper, #bestSellersWrapper, #footerWrapper {
+	max-width: 2000px;
+	margin: 0 auto;
 }
 
 body {
