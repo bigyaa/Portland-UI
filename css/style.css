@@ -49,6 +49,11 @@ body {
 	top: 10px;
 	padding: 13px 15px;
 	float: left;
+	cursor: pointer;
+}
+
+.logo:hover {
+transform: scale(1.1,1.1);
 }
 
 #menuHeaderTop a {
@@ -152,10 +157,12 @@ font-weight: bold;
 text-transform: uppercase;
 padding-right: 32px;
 border-right: 1px solid #b9bed1;
+cursor: pointer;
 }
 
 #support:hover {
-cursor: pointer;
+	color: #343e5c;
+
 }
 
 .icon-search-larger {
@@ -383,6 +390,11 @@ display: block;
 
 .side-menu-box li {
 	padding: 10.5px 21px;
+	cursor: pointer;
+}
+
+.side-menu-box li:hover {
+	opacity: 0.75;
 }
 
 .side-menu-header {
@@ -433,6 +445,11 @@ border-bottom: 1px solid #e4e5e7;
 	width: 100%;
 	border-radius: 5px;
 	float: left;
+}
+
+.main-items li:hover {
+	transform: scale(1.02,1.02);
+	opacity: 0.9;
 }
 
 .main-items h3 {
@@ -554,21 +571,31 @@ border-bottom: 1px solid #e4e5e7;
 	width: 70%;
 }
 
+.pagination li a:hover {
+	background-color: #343e5c;
+	color: white;
+}
+
 .pagination .next {
 	float: right;
 	width: 15%;
 	padding: 16px;
+	cursor: pointer;
 }
 
 .pagination .previous {
 	float: left;
 	width: 15%;
 	padding: 16px;
+	cursor: pointer;
+}
+
+.pagination img:hover {
+	transform: scale(1.1,1.1);
 }
 
 .best-sellers {
 	background-color: white;
-	/* margin-bottom: 50px; */
 	text-align: center;
 }
 
@@ -590,9 +617,13 @@ border-bottom: 1px solid #e4e5e7;
 .best-seller {
 	width: 285px;
 	height: 345px;
-	/* border-top: 1px solid #b9bed1; */
 	border-bottom: 1px solid #b9bed1;
 	text-align: center;
+}
+
+.best-seller:hover {
+	transform: scale(1.02,1.02);
+	opacity: 0.9;
 }
 
 .best-seller a {
@@ -699,6 +730,10 @@ footer {
 	display: block;
 }
 
+.footer-menu li:hover {
+	transform: scale(1.1,1.1);
+}
+
 .social-platforms a {
 	display: inline-block;
 }
@@ -706,6 +741,10 @@ footer {
 .social-platforms li {
 	padding: 20px;
 }
+
+.social-platforms li:hover {
+	transform: scale(1.25,1.25);
+} 
 
 .footer-bottom-left {
 	font: 18px crimson_textitalic;
@@ -716,6 +755,10 @@ footer {
 .footer-bottom-right a {
 	font: 14px montserratregular;
 	color: rgb(106, 107, 109);
+}
+
+.footer-bottom-right a:hover {
+	color: white;
 }
 
 .footer-bottom-right li {

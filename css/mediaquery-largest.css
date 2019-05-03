@@ -15,6 +15,7 @@
 
 .icon-cart-larger {
   padding-right: 32px;
+  cursor: pointer;
 } 
 
 .icon-cart-larger span:not(.cart-items) {
