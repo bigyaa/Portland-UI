@@ -5,12 +5,12 @@
 }
 
 #menuHeaderTop li {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 #menuHeaderTop {
-  position: absolute;
-  left: 12%;
+  width: 50%;
+  text-align: center;
 }
 
 .icon-cart-larger {
