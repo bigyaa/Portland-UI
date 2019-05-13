@@ -13,7 +13,7 @@ header {
 	border-bottom: 1px solid rgb(220, 224, 238);
 }
 
-#headerWrapper, #mainSectionWrapper, #bestSellersWrapper, #footerWrapper {
+#headerInnerWrapper, #mainSectionWrapper, #bestSellersWrapper, #footerWrapper {
 	max-width: 2000px;
 	margin: 0 auto;
 }
@@ -44,6 +44,10 @@ body {
 }
 
 .hamburger-items {
+	display: none;
+}
+
+#menuHeaderTop, #menuHeaderBottom{
 	display: none;
 }
 
@@ -86,7 +90,7 @@ body input[type="text"] {
 	padding-right: 10px;
 }
 
-.search-bar {
+#upperSearchBar {
 	border-top: 1px solid rgb(220, 224, 238);
 	position: absolute;
 	height: 50px;
@@ -143,6 +147,10 @@ body input[type="text"] {
 
  #menuHeaderBottom {
 	display: block;
+}
+
+#menuHeaderBottom ul {
+	display: inline-block;
 }
 
 .header-bottom-right-larger>* {
@@ -311,17 +319,11 @@ cursor: pointer;
 
 	.filter-bar-large {
 		text-align: center;
-	}
-	
-.filter-bar-large {
-	display: none;
-}
-
-.filter-bar-large {
-	background-color: white;
-	font: 11px montserratregular;
-	color: #343e5c;
-	font-weight: bold;
+		display: none;
+		background-color: white;
+		font: 11px montserratregular;
+		color: #343e5c;
+		font-weight: bold;
 }
 
 .filter-bar-large input[type="text"] {
@@ -450,6 +452,7 @@ border-bottom: 1px solid #e4e5e7;
 	width: 100%;
 	border-radius: 5px;
 	float: left;
+	position: relative;
 }
 
 .main-items li:hover {
@@ -489,7 +492,8 @@ border-bottom: 1px solid #e4e5e7;
 .item-extra-specs {
 	display: inline-block;
 	width: 100%;
-	transform: translateY(-65%);
+	position: absolute;
+	bottom: 5%;
 }
 
 .jbl-buy-now {

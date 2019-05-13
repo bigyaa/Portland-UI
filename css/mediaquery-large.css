@@ -26,6 +26,7 @@
     font: 11px montserratregular;
     color: #343e5c;
     font-weight: bold;
+    text-align: center;
   }
 
   .filter-bar-large input[type="number"] {

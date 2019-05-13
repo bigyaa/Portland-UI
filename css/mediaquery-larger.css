@@ -5,7 +5,11 @@
   }
 
   .hamburger-items {
-    display: block;
+    display: none;
+  }
+
+  header {
+    min-height: 60px;
   }
 
   .header-top * {
@@ -30,7 +34,7 @@
     width: none;
     }
 
-  .search-bar, .btn-sign-in {
+  #upperSearchBar, .btn-sign-in {
     display: none;
   }
 
@@ -109,7 +113,7 @@
   /* Header bottom for large screens */
 
   #menuHeaderBottom {
-    display: inline-block;
+    display: block;
   }
   
 .header-bottom-right-larger>* {
@@ -184,6 +188,7 @@
   .filter-bar-large {
     background-color: white;
     font: 11px montserratregular;
+    text-align: center;
     color: #343e5c;
     font-weight: bold;
     padding: 15px 6px; 
@@ -232,12 +237,8 @@
   }
 
    .main-items li:not(:nth-child(5)) {
-    width: calc(100% / 3);
+    width: calc(100% / 3.23);
     height: 255px;
-  }
-
-  .main-items li {
-    margin: 30px 0;
   }
 
   #middleSection {
@@ -267,10 +268,17 @@
 
   .main-items li {
     margin: 7px;
-    max-width: 540px;
+    max-width: 64%;
+    max-height:250px;
     overflow: hidden;
     float: left;
   }
+
+  /* .main-items li:hover .item-extra-specs {
+    bottom: 80px;
+    background: rgb(255,255,255);
+    padding: 10px;
+  } */
 
   .footer-top > * {
     display: inline-block;
@@ -282,7 +290,7 @@
   }
   
   .footer-top {
-      padding: 4.375rem;
+      padding: 4.375rem 8.214%;
   }
   
   .footer-logo {
@@ -314,7 +322,7 @@
     }
     
   .footer-bottom {
-    padding: 53px 4.375rem;
+    padding: 53px 8.214%;
     border-top: 1px solid rgb(106, 107, 109);
   }
   

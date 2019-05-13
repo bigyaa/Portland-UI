@@ -3,10 +3,12 @@
 
 <head>
   <title>Portland UI </title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="E-commerce">
   <meta name="description" content="Portland UI">
+
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
@@ -20,10 +22,12 @@
 
 <body>
   <header class="clearfix">
-    <div id="headerWrapper">
+    <div id="headerInnerWrapper">
       <div class="header-top clearfix">
         <div class="header-top-left hamburger-header">
-          <a href="#" title="More Options"><img src="images/icon__menu.png" alt="More Options"></a>
+          <a href="#" title="More Options" id="toggleMenu" onclick="toggleHeaderMenu()">
+            <img src="images/icon__menu.png" alt="More Options">
+          </a>
         </div>
 
         <div class="header-top-right">
@@ -33,11 +37,13 @@
 
         <div class="hamburger-items" id="menuHeaderTop">
           <ul>
-            <li><a href="#" title="Home" class="text-bold text-capitalize">Home</a></li>
-            <li><a href="#" title="Devices" class="text-bold text-capitalize">Devices</a></li>
-            <li><a href="#" title="Delivery and Payment" class="text-bold text-capitalize">Delivery & Payment</a></li>
-            <li><a href="#" title="Guarantee" class="text-bold text-capitalize">Guarantee</a></li>
-            <li><a href="#" title="About Us" class="text-bold text-capitalize">About Us</a></li>
+            <li><a href="#" title="Home" class="header-top-menu-items text-bold text-capitalize">Home</a></li>
+            <li><a href="#" title="Devices" class="header-top-menu-items text-bold text-capitalize">Devices</a></li>
+            <li>
+              <a href="#" title="Delivery and Payment" class="header-top-menu-items text-bold text-capitalize">Delivery & Payment</a>
+            </li>
+            <li><a href="#" title="Guarantee" class="header-top-menu-items text-bold text-capitalize">Guarantee</a></li>
+            <li><a href="#" title="About Us" class="header-top-menu-items text-bold text-capitalize">About Us</a></li>
           </ul>
         </div>
         <div class="header-top-right-larger mobile-hide">
@@ -48,7 +54,7 @@
         </div>
       </div>
 
-      <div class="search-bar">
+      <div id="upperSearchBar">
         <div class="icon-search"><a href="#" title="Search"><img src="images/icon__search.png" alt="Search"></a></div>
         <input placeholder="I'm looking for .." type="text" class="input-search" name="Search">
         <div class="icon-cart"><a href="#" title="Icon Cart"><img src="images/icon__cart.png" alt="Cart">
@@ -65,13 +71,13 @@
             <li><a href="#" title="Hi-Tech" class="text-upper text-faded selected">hi-tech</a></li>
             <li><a href="#" title="Best Sellers" class="text-upper text-faded">best sellers</a></li>
           </ul>
-        </div>
 
-        <div class="header-bottom-right-larger mobile-hide">
-          <span id="support" class="text-upper">Support</span>
-          <div class="icon-search-larger"><a href="#" title="Search">
-              <img src="images/icon__search.png" alt="Search"></a></div>
-          <input placeholder="I'm looking for .." type="text" class="input-search-larger" name="Search">
+          <div class="header-bottom-right-larger mobile-hide">
+            <span id="support" class="text-upper">Support</span>
+            <div class="icon-search-larger"><a href="#" title="Search">
+                <img src="images/icon__search.png" alt="Search"></a></div>
+            <input placeholder="I'm looking for .." type="text" class="input-search-larger" name="Search">
+          </div>
         </div>
       </div>
     </div>
@@ -524,6 +530,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
