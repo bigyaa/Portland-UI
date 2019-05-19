@@ -26,6 +26,11 @@ body {
 	background-color: rgb(228,229,231);
 }
 
+input[type="text"]:focus,
+input[type="number"]:focus {
+	outline: none;
+}
+
 .header-top-left {
 	position: absolute;
 	top: 10px;
